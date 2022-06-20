@@ -1,11 +1,13 @@
-﻿using ENT.Concrete;
+﻿using Core.DAL;
+using ENT.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DAL.Abstract
 {
-    public interface IRankDal : IEntityRepository<Rank>
+    public interface IBlogDal : IEntityRepository<Blog>
     {
+
     }
 }

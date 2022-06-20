@@ -5,8 +5,8 @@ using System.Text;
 
 namespace BLL.Abstract
 {
-    public interface IRankService
+    public interface IBlogService
     {
-        List<Rank> GetAll();
+        List<Blog> GetAll();
     }
 }

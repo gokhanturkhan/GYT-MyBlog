@@ -13,6 +13,6 @@ namespace DAL.Concrete.EntityFramework
             optionsBuilder.UseSqlServer(@"");
         }
 
-        public DbSet<Rank> Ranks { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
     }
 }

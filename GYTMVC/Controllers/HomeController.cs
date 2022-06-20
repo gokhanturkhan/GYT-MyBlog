@@ -22,9 +22,9 @@ namespace GYTMVC.Controllers
 
         public IActionResult Index()
         {
-            RankManager rankManager = new RankManager(new EfRankDal());
+           
             
-            return View(rankManager.GetAll());
+            return View();
         }
 
         public IActionResult Privacy()
